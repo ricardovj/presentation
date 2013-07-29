@@ -1,0 +1,108 @@
+<html>
+<head>
+	<link rel="stylesheet" href="reveal.css">
+	<link rel="stylesheet" href="default.css" id="theme">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<style>
+	img {
+		box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.15);
+	}
+	</style>
+</head>
+<body>
+	<div class="reveal center">
+	    <div class="slides" style="width: 960px; height: 700px; zoom: 0.5927142857142856;">
+	        <section style="top: -300px; display: block;" class="present">
+				
+					<h3>Application Components Team <br />Dashboard & Settings</h3>
+				
+			</section>
+	        <section>
+	            <section>
+
+	            	<h3>Dashboard</h3>
+	            	<ul>
+	            		<li>High level/quick access to your HubSpot awesomeness</li>
+	            	</ul>
+	            	<p />
+
+	            	<h3>New Dash</h3>
+	            	<ul>
+	            		<li>Backbone + Java APIs = fast!</li>
+	            	</ul>
+	            	<p />
+	            	<h3>Old Dash</h3>
+	            	<ul>
+	            		<li>Python + django = not as fast :(</li>
+	            	</ul>
+	            </section>
+	            <section><h4>Customers in new dash (Opt-in model)</h4><img src="img/dash-opt-in.png" /></section>
+	        </section>
+	        <section>
+	        	<section>
+	        		<h4>Settings</h4>
+	        		<ul>
+	        			<li>Python + django</li>
+	        			<li>Manager user specific or portal settings</li>
+	        			<li>APIs consumed:
+	        				<ul>
+	        					<li>Hubs</li>
+	        					<li>Settings</li>
+	        					<li>Gates</li>
+	        					<li>Products</li>
+	        					<li>Contacts</li>
+	        					<li>Email</li>
+	        					<li>Analytics</li>
+	        					<li>SubscriptionBilling</li>
+	        					<li>InternalEmail</li>
+	        				</ul>
+	        			</li>
+	        		</ul>
+	        	</section>
+	        </section>
+
+	        <section>
+	        	<h3>Thank you<span style="color: #F07b00">!</span></h3>
+	        </section>
+	    </div>
+	</div>
+	<script src="reveal.js"></script>
+	<script>
+
+			Reveal.initialize({
+				progress: true,
+				history: true,
+				center: false,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'concave' // default/cube/page/concave/zoom/linear/fade/none
+
+			});
+
+		
+
+
+		Reveal.initialize({
+
+		    	controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+		    // The "normal" size of the presentation, aspect ratio will be preserved
+		    // when the presentation is scaled to fit different resolutions. Can be
+		    // specified using percentage units.
+		    width: 960,
+		    height: 700,
+
+		    // Factor of the display size that should remain empty around the content
+		    margin: 0.1,
+
+		    // Bounds for smallest/largest possible scale to apply to content
+		    minScale: 0.2,
+		    maxScale: 1.0
+
+		});
+	</script>
+</body>
+</html>
